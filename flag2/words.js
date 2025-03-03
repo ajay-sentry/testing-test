@@ -10,4 +10,8 @@ function hello(a) {
   return a === 5 ? "hello!" : "nope";
 }
 
-module.exports = { returnPlus3, reverse, hello };
+function isEven(a) {
+  return a % 2 === 0;
+}
+
+module.exports = { returnPlus3, reverse, hello, isEven };
